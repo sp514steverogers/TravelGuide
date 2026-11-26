@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Registration Form</title>
+    <style>
+    body {
+    background-image: url("https://i.pinimg.com/736x/d1/26/7a/d1267af96804c24110e3751f72c13e06.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(230, 230, 210, 0.534);
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+    .group-form {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(230, 230, 210, 0.534);
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+    header, h3 {
+    text-align: center;
+    color: rgb(255, 241, 39);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    button {
+    padding: 20px 17px;
+    margin: 5px;
+    background-color: #09008d;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    }
+    button:hover {
+    transition: 0.3s ease;
+    background-color: rgb(65, 108, 225);
+    color: #b4d4ff;
+    transform: scale(1.1);
+    text-decoration:bold;
+    }
+        .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: rgba(230, 230, 210, 0.534);
+    padding: 20px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .menu-item {
+    position: relative;
+    }
+    .menu a {
+    display: block;
+    background-color: #09008d;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+     }
+    .menu a:hover {
+    background-color: rgb(65, 108, 225);
+    color: #b4d4ff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px #1d005fbb, 0 0 25px #79deff73;
+    }
+    nav a:hover {
+    color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px;
+    }
+    p {
+    color: rgb(255, 241, 39);
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.877);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(230, 230, 210, 0.534);
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    }
+    </style>
+    <body>
+
+            <header> CONTACT FOR CONCERNS </header>
+
+    <p> If having concern with the website, write a message here to the web developer so that it be addressed properly. </p>
+        <form>
+    <div class="group-form">
+    <h3>Message form</h3>
+        <div class="group-form">
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="7d91c37a-973f-4e74-837b-aa73719760ba">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <br><br>
+
+    <label>Message:</label>
+    <textarea name="message" required></textarea>
+    
+    <br><br>
+    <button type="submit">Submit</button>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+    <a href="st2.html">Home</a>
+    <a href="st2about.html">About</a>
+    <a href="st2gallery.html">Gallery</a>
+    </div>
+</form>
+    
+</form>
+    </body>
